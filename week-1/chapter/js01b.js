@@ -3,8 +3,8 @@
     Chapter case
 
     Tinley Xeriscapes
-    Author: 
-    Date:   
+    Author: Shannon Kueneke
+    Date: August 20, 2025
 
     Filename: js01b.js
 */
