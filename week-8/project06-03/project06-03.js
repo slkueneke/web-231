@@ -25,13 +25,13 @@ function copyShippingToBilling() {
       billingInputs[i].value = shippingInputs[i].value;
     }*/
 
-    document.billShip.elements.firstnameBill.value = document.billShip.elements.firstnameShip.value;
-    document.billShip.elements.lastnameBill.value = document.billShip.elements.lastnameShip.value;
-    document.billShip.elements.address1Bill.value = document.billShip.elements.address1Ship.value;
-    document.billShip.elements.address2Bill.value = document.billShip.elements.address2Ship.value;
-    document.billShip.elements.cityBill.value = document.billShip.elements.cityShip.value;
-    document.billShip.elements.countryBill.value = document.billShip.elements.countryShip.value;
-    document.billShip.elements.codeBill.value = document.billShip.elements.codeShip.value;
+    document.forms.billShip.elements.firstnameBill.value = document.forms.billShip.forms.elements.firstnameShip.value;
+    document.forms.billShip.elements.lastnameBill.value = document.forms.billShip.elements.lastnameShip.value;
+    document.forms.billShip.elements.address1Bill.value = document.forms.billShip.elements.address1Ship.value;
+    document.forms.billShip.elements.address2Bill.value = document.forms.billShip.elements.address2Ship.value;
+    document.forms.billShip.elements.cityBill.value = document.forms.billShip.elements.cityShip.value;
+    document.forms.billShip.elements.countryBill.value = document.forms.billShip.elements.countryShip.value;
+    document.forms.billShip.elements.codeBill.value = document.forms.billShip.elements.codeShip.value;
 
     //copy value of ship state select to billing state select value
     let stateShip = document.getElementById("stateShip");
