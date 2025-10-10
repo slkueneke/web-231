@@ -25,7 +25,7 @@ function copyShippingToBilling() {
       billingInputs[i].value = shippingInputs[i].value;
     }*/
 
-    document.forms.billShip.elements.firstnameBill.value = document.forms.billShip.forms.elements.firstnameShip.value;
+    document.forms.billShip.elements.firstnameBill.value = document.forms.billShip.elements.firstnameShip.value;
     document.forms.billShip.elements.lastnameBill.value = document.forms.billShip.elements.lastnameShip.value;
     document.forms.billShip.elements.address1Bill.value = document.forms.billShip.elements.address1Ship.value;
     document.forms.billShip.elements.address2Bill.value = document.forms.billShip.elements.address2Ship.value;
